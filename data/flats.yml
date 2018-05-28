@@ -1,0 +1,29 @@
+manizhatj:
+  name: "Manizha's home"
+  description: "Charming room in Jordaan"
+  city_name: "Amsterdam, France"
+  city_slug: "amsterdam"
+  wifi: false
+  rating: 1
+  guest: 4
+  facebook: 110
+
+greggstyle:
+  name: "Greggy' home"
+  description: Small flat in Tokyo
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+  guest: 10
+  facebook: 10
+
+thevtm:
+  name: Vinicius's home
+  description: Nice flat in Porto Alegre
+  city_name: "Porto Alegre, BR"
+  city_slug: "porto_alegre"
+  wifi: true
+  rating: 5
+  guest: 2
+  facebook: 200
