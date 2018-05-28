@@ -1,0 +1,24 @@
+---
+title: Le Wagon - Middleman - Team
+---
+
+<div id="team">
+
+  <div>  <h1> Discovering new tricks</h1>
+  </div>
+  <div>
+    <ul class="list-inline text-center">
+      <% ["manizhatj", "greggstyle"].each do |gh_username| %>
+      <li>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+        <h2><%= gh_username.capitalize %></h2>
+        <p> <a href="https://github.com/<%= gh_username%>" target="blank">
+          <i class="fa fa-github"></i>
+          <%= gh_username%>
+        </a>
+      </p>
+    </li>
+    <% end %>
+  </ul>
+</div>
+</div>

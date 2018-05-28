@@ -1,0 +1,16 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: white;
+  margin-top: 40px
+}
+
+.footer-copyright i{
+  color: $red;
+}
+
+.footer-copyright {
+  color: $blue;
+  font-size: 14px;
+}
